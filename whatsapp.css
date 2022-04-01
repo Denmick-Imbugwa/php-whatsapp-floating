@@ -1,0 +1,47 @@
+body{
+	font-family: 'Open Sans', serif;
+	background: #131213;
+}
+.whatsapp img {
+    position: fixed;
+    width: 65px;
+    height: auto;
+    object-fit: cover;
+    bottom: 20px;
+    left: 6%;
+    transform: translate3d(-50%, -50%, 0);
+    border-radius: 50%;
+    float: left;
+}
+.whatsapp img:hover {
+    width: 75px;
+}
+
+#blink {
+    transition: 1s;
+}
+#blink:hover {
+    transition: 20s;
+    visibility: visible; 
+    opacity: 1; 
+}
+
+@media(max-width: 991px){
+    .whatsapp img {
+        width: 70px;
+        left: 8%;
+    } 
+}
+@media(max-width: 767px){
+    .whatsapp img {
+        width: 60px;
+        left: 10%;
+    } 
+}
+@media(max-width: 479px){
+    .whatsapp img {
+        width: 55px;
+        left: 15%;
+    } 
+}
+
